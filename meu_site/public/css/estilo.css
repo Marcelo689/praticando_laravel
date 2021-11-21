@@ -1,0 +1,61 @@
+.topo{
+    padding:20px 0px 0px 0px; 
+    width:100%;
+    background-color:#f8f8f8;
+}
+.menu{
+    float:right;
+    margin-right:40px;
+}
+.menu li{
+    display:inline;
+    float:left;
+}
+
+.menu ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.menu a{
+    text-decoration:none;
+    padding:14px 16px;
+    color:#333;
+}
+.menu a:hover{
+    color:#268fd0;
+}
+
+.nome{
+    text-align: center;
+    color:rgb(43, 126, 194);
+    width:100%;
+    position:relative;
+    font-size:20px;
+}
+
+input,select, textarea, button{
+    width:100%;
+    padding:10px 15px;
+    margin:10px 0px 10px 0px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color:transparent;
+    color:#333;
+}
+
+button{
+    background-color: rgb(79, 238, 79);
+    border-radius: 8px;
+    font-size: 15px;
+    color:rgb(83, 83, 83);
+    font-weight:bold;
+}
+
+button:hover{
+    background-color:mediumspringgreen;
+    cursor:pointer;
+    color:black;
+}
